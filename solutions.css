@@ -90,3 +90,41 @@
       } 
 }
 
+/*Esercizio 12*/
+.ex-12-button:hover .ex-12-top-white{
+    animation: moving-top 3s linear;
+}
+
+@keyframes moving-top {
+    0%{
+        left: 10%;
+    }
+    49%{
+        left: calc(200px - 60px);
+    }
+    50%{
+        left: calc(200px - 10%);
+    }
+    100%{
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: moving-bottom 3s linear;
+}
+
+@keyframes moving-bottom {
+    0%{
+        right: 20%;
+    }
+    49%{
+        right: calc(200px - 60px);
+    }
+    50%{
+        right: calc(200px - 20%);
+    }
+    100%{
+        right: 20%;
+    }
+}
