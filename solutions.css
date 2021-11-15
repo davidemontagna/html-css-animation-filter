@@ -1,0 +1,13 @@
+.well div{
+    transition: all 3s;
+}
+
+/*Esercizio 1*/
+.ex-1-square:hover{
+    background-color: red;
+}
+
+/*Esercizio 2*/
+.ex-2-square:active{
+    width: 100%;
+}
