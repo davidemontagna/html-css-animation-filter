@@ -99,9 +99,6 @@
     0%{
         left: 10%;
     }
-    49%{
-        left: calc(200px - 60px);
-    }
     50%{
         left: calc(200px - 10%);
     }
@@ -118,9 +115,6 @@
     0%{
         right: 20%;
     }
-    49%{
-        right: calc(200px - 60px);
-    }
     50%{
         right: calc(200px - 20%);
     }
@@ -128,3 +122,5 @@
         right: 20%;
     }
 }
+
+/*Esercizio 13*/
